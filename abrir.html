@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/assets/logo-vt.svg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar proyecto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-dark d-flex justify-content-center align-items-center vh-100">
+    <header>
+        <!--Navigation bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="Landing.html#page-top">Inicio</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="Landing.html#about">Quienes somos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Registro.html">Registrarse</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Login.html">Conectarse</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Landing.html#contactForm">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="bg-white p-5 rounded-5 text-secondary shadow-sm" style="width: 25rem;">
+
+        <!--Lista de proyectos-->
+        <div class="text-center fs-1 fw-bold">Lista de proyectos</div>
+
+        <!-- Tabla de proyectos -->
+        <table class="table mt-4">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre del Proyecto</th>
+                    <th scope="col">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Edificio Primavera</td>
+                    <td>
+                        
+                        <a href="#" class="btn btn-primary">Abrir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Hospital municipal</td>
+                    <td>
+                        
+                        <a href="#" class="btn btn-primary">Abrir</a>
+                    </td>
+                </tr>
+                <!-- Agrega más filas según sea necesario -->
+            </tbody>
+        </table>
+    
+    </div>
+</body>
+
+</html>
